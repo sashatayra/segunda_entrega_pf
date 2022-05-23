@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+Da+2&family=Bebas+Neue&family=Concert+One&display=swap');
+
+body{
+	font-family: 'Nunito', sans-serif;
+	background-image: url(../assets/1539.jpg);
+	background-size: contain;
+}
+
+#imagenLogo{
+	border-radius: 40%;
+	animation-duration: 1.2s;
+   	animation-name: aparecer;
+   	animation-iteration-count: 5s;
+}
+
+@keyframes aparecer{
+	0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+
+}
+
+#contenido{
+	background: radial-gradient(#ccc, #000);
+	color: #fff;
+}
+
+.titulo{
+	font-family: 'Koulen', cursive;
+}
+
+#imagenUno{
+    height: 25rem;
+    width: 25rem;
+  	transition: all 1s;
+}
+
+#imagenUno:hover{
+	height: 30rem;
+	width: 30rem;
+} 
+
+#imagenDos{
+	height: 25rem;
+    width: 25rem;
+    transition: all 1s;
+}
+
+#imagenDos:hover{
+	height: 30rem;
+	width: 30rem;
+}
+
+#imagenTres{
+    height: 25rem;
+    width: 25rem;
+    transition: all 1s;
+}
+
+#imagenTres:hover{
+	height: 30rem;
+	width: 30rem;
+}
+
+#footer{
+	background-color: #000;
+	color: #fff;
+}
+
+/*trabajos.html*/
+#carrusel{
+	max-width: 590px;
+}
+
+#instagram{
+	background-color: #fff;
+	color: #000
+}
+
+#insta{
+	font-family: 'Concert One', cursive;
+	color: #000;
+}
+
+/*formularios.html*/
+
+#formulario{
+	background-color: #fff;
+	color: #000;
+}
+
+/*sobremi.html*/
+
+#textoSob{
+	background-color: #000;
+	color: #fff;
+}
+
+#fotoSob{
+	width: 40rem;
+	height: 40rem;
+}
+
+#video{
+	width: 40rem;
+	height: 40rem;
+}
+
+/*estudio.html*/
+
+#imagenEsUno{
+	height: 35rem;
+	width: 35rem;
+}
+
+#imagenEsDos{
+	height: 35rem;
+	width: 35rem;
+}
+
+#imagenEsTres{
+	height: 35rem;
+	width: 35rem;
+}
+
+#imagenEsCuatro{
+	height: 35rem;
+	width: 35rem;
+}
+
+#textoEs{
+	background-color: #000;
+	color: #fff;
+}
+
+/*cuidados.html*/
+
+#imagenCuidados{
+	height: 35rem;
+	width: 35rem;
+}
+
+#textoCui{
+	background-color: #000;
+	color: #fff;
+}
+
+#textoDosCui{
+	background-color: #000;
+	color: #fff;
+}
